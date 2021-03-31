@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    container_name: hello-rocket
+    build: .
+    image: hello-rocket
+    ports:
+      - 5101:5100
