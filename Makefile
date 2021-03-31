@@ -8,4 +8,4 @@ run:
 build:
 	docker build -t hello-rocket .
 builder-image:
-	docker build -f Dockerfile.builder -t hello-rocket-builder .
+	docker build -f builder.Dockerfile -t hello-rocket-builder .
